@@ -10,7 +10,7 @@ function MedicareDataSource() {
 */
 /*	$.get('https://googlemaps.github.io/js-store-locator/examples/medicare.csv', function(data) {
 */
-	$.get('https://raw.githubusercontent.com/akira-pak/unid-crim/master/unidades2.csv', function(data) {
+	$.get('https://akira-pak.github.io/unid-crim/docs/unidades2.csv', function(data) {
 
     that.setStores(that.parse_(data));
   });
