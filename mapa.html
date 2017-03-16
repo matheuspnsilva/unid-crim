@@ -8,10 +8,10 @@
     <script
       src="https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js">
     </script>
-    <script src="docs/store-locator.min.js"></script>
-    <script src="docs/medicare-static-ds.js"></script>
-    <script src="docs/panel.js"></script>
-    <link type=text/css href="docs/storelocator.css">
+    <script src="https://akira-pak.github.io/unid-crim/docs/store-locator.min.js"></script>
+    <script src="https://akira-pak.github.io/unid-crim/docs/medicare-static-ds.js"></script>
+    <script src="https://akira-pak.github.io/unid-crim/docs/panel.js"></script>
+    <link rel=stylesheet href="https://akira-pak.github.io/unid-crim/docs/storelocator.css">
     <style>
       body { font-family: sans-serif; }
 	  #map-canvas { height: 700px; }
@@ -36,6 +36,8 @@
     <h1>Unidades de Criminalística</h1>
     <div id="panel"></div>
     <div id="map-canvas"></div>
+	<p> Passos:<br>1) digite o local de destino + ENTER: o mapa é centralizado no destino, e a lista de unidades é ordenada do local mais próximo para o mais distante. <br>2) clique na unidade (na lista ou no mapa): um box com dados da unidade é exibido no mapa.<br>3) clique no link "Rotas" dentro do box, e a rota entre a unidade e o local de destino é exibida. A distância e o tempo de viagem são exibidos na descrição da rota, à esquerda.<br>4) clique em "Close" para retornar à lista e testar rotas para outras unidades.<br><br>Observação: a lista de unidades é sempre ordenada em relação à distância ao local que está no centro do mapa. Ou seja, ao arrastar o mapa, a lista é atualizada automaticamente.</p>
+	
 <!--    <p class="attribution">Medicare location data from <a href="http://data.gov.au/66">data.gov.au</a>, licensed under <a href="http://creativecommons.org/licenses/by/2.5/au/">CC-BY 2.5</a></p>  
 //-->
   </body>
